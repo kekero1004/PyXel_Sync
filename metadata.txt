@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=PyXel_Sync
+qgisMinimumVersion=3.00
+qgisMaximumVersion=3.99
+description=PyXel_Sync
+version=0.0.1
+author=J.D.M.P.E
+email=koreastan@gmail.com
+
+about=A simple SW that allows you to edit the properties of layers loaded in QGIS map canvas using PyQGIS and Openpyxl in a QGIS environment.
+
+tracker=False
+repository=False
+# End of mandatory metadata
+
+# Recommended items:
+# Uncomment the following line and add your changelog:
+changelog=2024-02-11  PyXel_Sync Tool 0.1 version:
+		
+# Tags are comma separated with spaces allowed
+tags=PyXel_Sync, 엑셀편집, DBF 엑셀에서 shp 자료편집, Openpyxl
+
+homepage=https://github.com/kekero1004/PyXel_Sync
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
